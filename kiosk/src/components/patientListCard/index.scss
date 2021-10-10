@@ -1,0 +1,73 @@
+.patientListCard{
+    .card{
+        // box-shadow: 0 0 10px 6px hsl(0deg 0% 45% / 10%);
+        .patinet-name{
+            font-size: 1.4vw;
+        }
+        .patient-bio{
+            color: $brand-clr;
+            span{
+                color: $muted;
+            }
+        }
+
+        .card-body{
+            box-shadow: 4px 4px 16px #54545433;
+        }
+
+        .cta-parent{
+            .btn-primary{
+                color: $white;
+                background-color: $brand-clr;
+                font-weight: 600;
+                border-radius: 10px;
+                border-color: $brand-clr;
+                width: 110px;
+                
+            }
+            .btn-outline{
+                color: $brand-clr;
+                border-color: $brand-clr;
+                border-radius: 10px;
+                border-width: 2px;
+                width: 150px;
+                width: fit-content;
+
+            }
+        }
+    }
+
+    
+}
+.vital-input{
+    width: 50px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+.lhs{
+    width: 150px;
+}
+
+.custom-modal-content {
+  inset: 50% auto auto 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+//   border: 1px solid rgb(204, 204, 204);
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  border-radius: 4px;
+  outline: none;
+  padding: 20px;
+  width: 700px;
+  max-height: 650px;
+}
+
+
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+  background-color: #363434bf !important ;
+}
+
+.ant-spin-dot-item{
+    background-color: #d23450;
+}

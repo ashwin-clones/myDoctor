@@ -1,0 +1,29 @@
+.phContent{
+    .heading{
+        font-size: 20px;
+        font-weight: 900;
+
+    }
+    .vitalBody{
+        .ph.card{
+            .phCardBody{
+                .vitalItem{
+                    .lhs{
+                        // color: $brand-clr;
+                        font-weight: 800;
+                        min-width: 150px;
+                    }
+                    .vitalValue{
+                        color: $brand-clr;
+                        min-width: 70px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+.date{
+    color: $muted;
+    font-weight: 800;
+}

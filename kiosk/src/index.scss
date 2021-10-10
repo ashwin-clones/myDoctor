@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import './variables.scss';
+@import './components/login/index.scss';
+@import './components/header/index.scss';
+@import './components/subHeader/index.scss';
+@import './components/reports/index.scss';
+@import './components/patientListCard/index.scss';
+@import './components/patientHistory/index.scss';
+@import './components/consult/index.scss';
+@import "antd/dist/antd.css";
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+};
+
+
+

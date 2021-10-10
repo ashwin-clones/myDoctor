@@ -1,0 +1,51 @@
+.subheader-container{
+    .subheader-content{
+        background-color: rgb(92,92,92);
+        height: 50px;
+        a{
+            color: $white;
+        }
+        .report-label{
+            font-size: 20px;
+
+        }
+        .searchBar{
+            input{
+                border: 2px solid $brand-clr;
+                background-color: $white;
+                width: 200px;
+                border-radius: 5px;
+                height: 5vh;
+                text-align: center;
+            }
+
+        }
+    }
+}
+
+.max-w-800{
+    max-width: 800px;
+}
+
+.col-form-label{
+    color: $brand-clr;
+}
+
+.muted{
+    color: $muted;
+}
+
+.btn-primary{
+    background-color: $brand-clr;
+    border-color: $brand-clr;
+}
+
+.active-doc-toggle{
+    div{
+        color: #fff;
+        margin-right: 10px;
+    }
+    .doc-toggle.ant-switch-checked{
+            background: #d24350;
+    }
+}

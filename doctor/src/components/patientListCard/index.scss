@@ -1,0 +1,48 @@
+.patientListCard{
+    .card{
+        // box-shadow: 0 0 10px 6px hsl(0deg 0% 45% / 10%);
+        .patinet-name{
+            font-size: 1.4vw;
+        }
+        .patient-bio{
+            color: $brand-clr;
+            span{
+                color: $muted;
+            }
+        }
+
+        .card-body{
+            box-shadow: 4px 4px 16px #54545433;
+        }
+
+        .cta-parent{
+            .btn-primary{
+                color: $white;
+                background-color: $brand-clr;
+                font-weight: 600;
+                border-radius: 10px;
+                border-color: $brand-clr;
+                width: 110px;
+                
+            }
+            .btn-outline{
+                color: $brand-clr;
+                border-color: $brand-clr;
+                border-radius: 10px;
+                border-width: 2px;
+                width: 150px;
+                width: fit-content;
+
+            }
+        }
+    }
+
+    
+}
+.vital-input{
+    width: 50px;
+    margin-right: 20px;
+}
+.lhs{
+    width: 150px;
+}

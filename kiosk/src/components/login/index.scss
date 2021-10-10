@@ -1,0 +1,43 @@
+@import '../../variables.scss';
+
+
+.container{
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 100vh;
+    .form-control:focus{
+        outline: none;
+        box-shadow: none;
+    }
+
+    .muted{
+        color: $muted;
+    }
+    
+    .logo{
+        font-size: 25px;
+        font-weight: 800;
+        color: #999;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 4rem;
+        span{
+            color: $brand-clr;
+        }
+    }
+    .content{
+        .labels{
+            .form-label{
+                color: $brand-clr;
+            }
+        }
+    }
+    .cta{
+        background-color: $brand-clr;
+        color: $white;
+        margin-top: 1rem;
+    }
+}
